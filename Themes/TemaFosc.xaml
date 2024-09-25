@@ -13,5 +13,12 @@
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="FontSize" Value="15"/>
     </Style>
-    
+    <Style TargetType="TextBox">
+        <Setter Property="Background" Value="Black"/>
+        <Setter Property="Foreground" Value="Orange"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value="15"/>
+    </Style>
+   
+
 </ResourceDictionary>

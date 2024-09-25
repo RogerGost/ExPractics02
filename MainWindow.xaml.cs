@@ -32,17 +32,19 @@ namespace ExPractics02
 
         private void ChangeTheme(object sender, RoutedEventArgs e)
         {
-            if (Application.Current.Resources.MergedDictionaries[0].Source.ToString().Contains("TemaClaro"))
+            if (Application.Current.Resources.MergedDictionaries[0].Source.ToString().Contains("TemaClar"))
             {
                 Themes("TemaFosc.xaml");
-                (sender as Button).Content = "Tema Clar";
             }
             else
             {
                 Themes("TemaClar.xaml");
-                (sender as Button).Content = "Tema Fosc";
             }
         }
 
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

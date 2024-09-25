@@ -11,12 +11,16 @@
                 Height="25" Width="248"/>
         <Button Content="Button2" HorizontalAlignment="Left" Margin="72,97,0,0" VerticalAlignment="Top" Height="23"
                 Width="248"/>
-        <Label  Name="text" Content="Exercici Practic 02" HorizontalAlignment="Left" Margin="72,150,0,0"
+        <Label  Name="text" Content="Exercici Practic 02" HorizontalAlignment="Left" Margin="72,137,0,0"
                 VerticalAlignment="Top"
-                Height="185" Width="248"/>
-        <Button Name="canviTema" Content="Canvi Tema" HorizontalAlignment="Left" Margin="453,50,0,0" VerticalAlignment="Top"
-                Height="58" Width="117" Click="Themes"/>
+                Height="35" Width="248"/>
 
+        <CheckBox Name="canviTema" Content="Canvi Tema" HorizontalAlignment="Left" Margin="453,50,0,0" VerticalAlignment="Top"
+                Height="24" Width="117" Click="ChangeTheme"/>
+        <TextBox Name="text1" HorizontalAlignment="Left" Margin="72,177,0,0" TextWrapping="Wrap" Text="La nit estrellada és un olisobre tela del pintor postimpressionista neerlandès Vincent van Gogh. Pintat al juny de 1889, representa la vista des de la finestra orientada a l'est de la seva habitació d'asil en Saint-*Rémy-de-*Provence, just abans
+                 del començar el dia, amb l'addició d'un poble imaginari" VerticalAlignment="Top" Width="248" Height="215"
+                 TextChanged="TextBox_TextChanged" >
+        </TextBox>
 
     </Grid>
 </Window>
